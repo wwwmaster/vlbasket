@@ -12,13 +12,7 @@ class BasketServiceProvider extends ServiceProvider {
      * @return void
      */
     public function boot() {
-
-        $this->loadViewsFrom(__DIR__ . '/views', 'basket');
-        
-        $this->publishes([
-            __DIR__ . '/views' => base_path('resources/views/vendor/basket'),
-        ]);
-        
+       
     }
 
     /**
@@ -27,8 +21,6 @@ class BasketServiceProvider extends ServiceProvider {
      * @return void
      */
     public function register() {
-        include __DIR__ . '/routes.php';
-        $this->app->make('Vl\Basket\BasketController');
         
     }
 
