@@ -1,0 +1,13 @@
+{
+    "name": "vl/basket",
+    "description": "Basic basket structure",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vasyl Lupynis",
+            "email": "vasyllupynis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
