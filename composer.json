@@ -8,6 +8,6 @@
             "email": "vasyllupynis@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "require": {}
 }
